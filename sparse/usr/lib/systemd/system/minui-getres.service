@@ -1,0 +1,11 @@
+[Unit]
+Description=save the width and height of the screen to use for cutout handling
+After=android-mount.service local-fs.target lxc@android.service
+Wants=android-mount.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/minui-getres
+
+[Install]
+RequiredBy=local-fs.target

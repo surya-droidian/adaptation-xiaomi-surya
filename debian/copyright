@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: adaptation-xiaomi-surya
-Source: <PLEASE_FILL_HERE>
+Source: https://github.com/surya-droidian/adaptation-xiaomi-surya
 
 Files: *
 Copyright: 2024 anShigenta <swertygh70@gmail.com>

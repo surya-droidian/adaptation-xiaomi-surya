@@ -1,0 +1,1 @@
+/sys/class/leds/led:torch_0/brightness,/sys/class/leds/flashlight/brightness
