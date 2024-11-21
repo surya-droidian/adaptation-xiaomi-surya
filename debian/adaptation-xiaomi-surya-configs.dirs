@@ -1,0 +1,4 @@
+/etc/apt/sources.list.d
+/etc/apt/preferences.d
+/etc/apt/package-sideload-create.d
+/etc/apt/trusted.gpg.d

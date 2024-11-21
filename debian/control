@@ -1,0 +1,19 @@
+Source: adaptation-xiaomi-surya
+Maintainer: anShigenta <swertygh70@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-xiaomi-surya
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api30-phone,
+         adaptation-xiaomi-surya-configs (= ${binary:Version}),
+Description: Community adaptation for xiaomi-surya - metapackage
+
+Package: adaptation-xiaomi-surya-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Community adaptation for xiaomi-surya - adaptation configurations

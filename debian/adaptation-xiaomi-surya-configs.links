@@ -1,0 +1,2 @@
+/usr/lib/adaptation-xiaomi-surya/sources.list.d/community-xiaomi-surya.list /etc/apt/sources.list.d/community-xiaomi-surya.list
+/usr/lib/adaptation-xiaomi-surya/trusted.gpg.d/community-xiaomi-surya.gpg /etc/apt/trusted.gpg.d/community-xiaomi-surya.gpg
