@@ -2,3 +2,7 @@
 
 %:
 	dh $@
+
+override_dh_installsystemd:
+	dh_installsystemd -padaptation-xiaomi-surya-configs --name=flashlight-perm flashlight-perm.service --no-start
+	dh_installsystemd -padaptation-xiaomi-surya-configs --name=minui-getres minui-getres.service --no-start

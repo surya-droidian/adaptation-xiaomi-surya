@@ -1,0 +1,12 @@
+[Unit]
+Description=give flashlight nodes the correct permission to let Phosh use it
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'chown droidian:droidian -R /sys/class/leds/led:torch_0/'
+ExecStart=/bin/sh -c 'chown droidian:droidian -R /sys/class/leds/led:switch_0/'
+
+[Install]
+WantedBy=graphical.target
